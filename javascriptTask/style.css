@@ -1,0 +1,47 @@
+.registerForm {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.registerForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registerForm input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    margin-right: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.registerForm select {
+    width: 25%;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.registerForm .result .registerForm .result p {
+    font-size: 30;
+    margin: 10px 0;
+    height: 1.5em; 
+    line-height: 1.5em;
+}
+
+.registerForm input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color:green;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.registerForm input[type="submit"]:hover {
+    background-color: green;
+}
